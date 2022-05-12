@@ -10,9 +10,9 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Navbar />
-      <h1 className="text-6xl underline">
-            random shit
-         </h1>
+      <div className="text-2xl box-border h-20 w-128 bg-amber-100 text-center py-3 underline border">
+            Bridge club du cercle du commerce - Sète 16 quai du maréchal de Lattre de Tassigny - 34200 SETE
+         </div>
     </div>
   );
 }
