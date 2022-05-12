@@ -1,32 +1,18 @@
-import { Fragment } from "react";
+import Head from 'next/head';
+import { Navbar } from '../components/navbar';
 import Link from 'next/Link';
 
-
-function HomePage() {
-
-    return( <Fragment>
-        <h1 className="text-6xl font-bold text-green-600 underline">
-            Le Club de Bridge de Sète
-        </h1>
-        <ul>
-            <li>
-                <Link href="news">
-                    Les nouvelles du mois
-                    </Link>
-            </li>
-            <li>
-                <Link href="tournois">
-                    Tournois
-                </Link>
-            </li>
-            
-        </ul>
-
-        </Fragment> 
-    )
-    
-
-
+export default function Home() {
+  return (
+    <div>
+      <Head>
+        <title>Create Next App</title>
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
+      <Navbar />
+      <h1 className="text-6xl underline">
+            random shit
+         </h1>
+    </div>
+  );
 }
-
-export default HomePage;
