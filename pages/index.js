@@ -4,8 +4,10 @@ import Link from 'next/Link';
 
 function HomePage() {
 
-    return <Fragment>
-        <h1>Le Club de Bridge de Sète</h1>
+    return( <Fragment>
+        <h1 className="text-6xl font-bold text-green-600 underline">
+            Le Club de Bridge de Sète
+        </h1>
         <ul>
             <li>
                 <Link href="news">
@@ -21,6 +23,7 @@ function HomePage() {
         </ul>
 
         </Fragment> 
+    )
     
 
 
