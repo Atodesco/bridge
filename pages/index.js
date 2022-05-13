@@ -3,6 +3,7 @@ import { Navbar } from "../components/navbar";
 import Link from "next/Link";
 import Pin from "../public/pin.png";
 import Image from "next/image";
+import Logo from "../img/logo.png";
 
 export default function Home() {
   return (
@@ -50,40 +51,64 @@ export default function Home() {
         {/*-------------1er image---------------*/}
         <div class="px-9">
           <div className="picture">
-            <img src="/tmp.jpg" />
-            <div className="overlay2">
-              <div className="text2">
-                <span className="longtexte">
-                  <h1 className="text-3xl font-medium"> INSCRIPTIONS</h1>
-                </span>
-              </div>
-            </div>
+            <Link href="/inscriptions">
+              <a>
+                <img src="/tmp.jpg" />
+              </a>
+            </Link>
+            <Link href="/inscriptions">
+              <a>
+                <div className="overlay2">
+                  <div className="text2">
+                    <span className="longtexte">
+                      <h1 className="text-3xl font-medium"> INSCRIPTIONS</h1>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         {/*-------------2e image---------------*/}
         <div class=" px-9">
           <div className="picture">
-            <img src="/tmp.jpg" />
-            <div className="overlay2">
-              <div className="text2">
-                <span className="longtexte">
-                  <h1 className="text-3xl font-medium"> RÉSULTATS</h1>
-                </span>
-              </div>
-            </div>
+            <Link href="/inscriptions">
+              <a>
+                <img src="/tmp.jpg" />
+              </a>
+            </Link>{" "}
+            <Link href="/inscriptions">
+              <a>
+                <div className="overlay2">
+                  <div className="text2">
+                    <span className="longtexte">
+                      <h1 className="text-3xl font-medium"> RÉSULTATS</h1>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
         {/*-------------3e image---------------*/}
         <div class=" px-9">
           <div className="picture">
-            <img src="/tmp.jpg" alt="Bridge" className="image" />
-            <div className="overlay2">
-              <div className="text2">
-                <span className="longtexte">
-                  <h1 className="text-3xl font-medium"> COMPÉTITIONS</h1>
-                </span>
-              </div>
-            </div>
+            <Link href="/inscriptions">
+              <a>
+                <img src="/tmp.jpg" />
+              </a>
+            </Link>{" "}
+            <Link href="/inscriptions">
+              <a>
+                <div className="overlay2">
+                  <div className="text2">
+                    <span className="longtexte">
+                      <h1 className="text-3xl font-medium"> COMPÉTITIONS</h1>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -110,6 +135,61 @@ export default function Home() {
         </div>
         <img src="/Map.png" className="py-9 mx-auto" />
       </div>
+
+      <div className="text-2xl box-sizing w-100 px-9 py-5 font-bold text-center">
+        SPONSORS
+        <div className="grid grid-cols-4 gap-2 border-2 border-black py-2">
+          <div class="px-9">
+            <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
+          </div>
+          <div class="px-9">
+            <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
+          </div>
+          <div class="px-9">
+            <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
+          </div>
+          <div class="px-9">
+            <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
+          </div>
+        </div>
+      </div>
+
+      <div className="text-2xl box-sizing w-100 px-9 py-5 font-bold text-center">
+        EXPOSITION EN COURS
+        <div className="grid grid-cols-4 gap-2 border-2 border-black py-2">
+          <div class="px-9">
+            <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
+          </div>
+          <div class="px-9">
+            <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
+          </div>
+          <div class="px-9">
+            <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
+          </div>
+          <div class="px-9">
+            <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
+          </div>
+        </div>
+      </div>
+      {/* -----------------white point shlag-------------------- */}
+      <div className="bg-white box-sizing h-20 w-100 text-white">.</div>
+      {/* -----------------white point shlag-------------------- */}
+      <footer className="grid grid-cols-2 gap-1 place-items-stretch  bg-zinc-900 px-8 p-1">
+        <div className="">
+          <span className="text-2xl text-white font-small">
+            BRIDGE CLUB DU CERCLE DU COMMERCE 2022
+          </span>
+        </div>
+        <div className="">
+          <Image
+            src={Logo}
+            className="absolute"
+            alt="Logo"
+            width={190}
+            height={190}
+          />
+        </div>
+      </footer>
     </div>
   );
 }

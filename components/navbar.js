@@ -20,7 +20,7 @@ export const Navbar = () => {
         </Link>
         <div className="hidden w-full lg:inline-flex lg:flex-grow lg:w-auto">
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-end items-start mb-3 flex flex-col lg:h-auto">
-            <Link href="/">
+            <Link href="/news">
               <a className="lg:inline-flex lg:w-auto w-full px-8 py-2 rounded text-white font-small  hover:bg-green-600 hover:text-white text-2xl">
                 ACTUALITES
               </a>
