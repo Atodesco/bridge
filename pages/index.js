@@ -23,9 +23,9 @@ export default function Home() {
           <div className="text">
             <span className="longtexte">
               <h1 className="text-3xl font-medium"> JOUEZ AU BRIDGE</h1>
-              Plus qu'un jeu de cartes convivial, le bridge est un sport
-              d'esprit hautement intellectuel. Il a toute sa place dans nos deux
-              salons situés aux premiers étages du self et du Manoir. Vous
+              Plus qu&aposun jeu de cartes convivial, le bridge est un sport
+              d&aposesprit hautement intellectuel. Il a toute sa place dans nos
+              deux salons situés aux premiers étages du self et du Manoir. Vous
               pourrez y jouer tout à loisir dans des parties amicales et, si
               vous aimez la competition, participer à des tournois organisés
               simultanément dans toute la France.
@@ -122,7 +122,7 @@ export default function Home() {
       <div className="grid grid-cols-2 gap-1 place-items-stretch bg-green-600 w-100">
         <div className="text-xl font-small py-10">
           <h1 className="font-bold text-3xl text-black text-center py-10">
-            HORAIRES D'OUVERTURE{" "}
+            HORAIRES D&aposOUVERTURE{" "}
           </h1>
           <div className="text-1xl text-center font-small">
             <li>Lundi: 14h30</li>

@@ -27,10 +27,10 @@ function NewsPage() {
             </h1>
             <p className="row-span-2 col-span-2 text-justify">
               Depuis plus de 30 ans Charlotte a toujours été la première a
-              acceuillir les nouveaux et a su s'occuper des anciens en nous
-              préparant des "apéros" inoubliables. C'est un pilier du club qui
-              vient de nous quitter mais qui restera pour toujours dans nos
-              coeurs.
+              acceuillir les nouveaux et a su s&aposoccuper des anciens en nous
+              préparant des &quotapéros&quot inoubliables. C&aposest un pilier
+              du club qui vient de nous quitter mais qui restera pour toujours
+              dans nos coeurs.
             </p>
           </div>
           <div>{/* --------5eme col vide pour margin--------- */}</div>
@@ -91,7 +91,7 @@ function NewsPage() {
           {/* -------------DESCRIPTION ACTU--------- */}
           <div className="col-span-2 border-b-4 border-zinc-500">
             <h1 className="text-xl font-bold text-left text-slate-500 mt-7 mb-5 col-span-2 mr-5">
-              SIMULTANÉ D'ENTRAIDE AUX CLUBS DU COMITÉ LR
+              SIMULTANÉ D&aposENTRAIDE AUX CLUBS DU COMITÉ LR
             </h1>
             <p className="row-span-2 col-span-2 text-justify mr-5">
               Un classement individuel, catégoriel, est prévu sur les 5
