@@ -4,6 +4,7 @@ import Link from "next/Link";
 import Pin from "../public/pin.png";
 import Image from "next/image";
 import Logo from "../img/logo.png";
+import VraiLogo from "..//img/logo-original.jpg";
 
 export default function Home() {
   return (
@@ -13,11 +14,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="text-2xl box-border h-20 w-128 bg-orange-50 text-left py-5 px-9 font-">
+      <div className="text-2xl box-border h-20 w-128 bg-green-600 text-left text-white font-medium py-5 px-9">
         BRIDGE CLUB DU CERCLE DU COMMERCE : SÈTE
       </div>
       <div className="container">
-        <img src="/bridge-resize.png" alt="Bridge" className="image" />
+        <img src="/Portdesete.jpg" alt="Bridge" className="image" />
         <div className="overlay">
           <div className="text">
             <span className="longtexte">
@@ -47,13 +48,13 @@ export default function Home() {
         />
       </div> */}
 
-      <div class="flex items-stretch px-3 py-9">
+      <div className="grid grid-cols-3 gap-2 px-3 py-9 w-100">
         {/*-------------1er image---------------*/}
-        <div class="px-9">
+        <div className="px-9">
           <div className="picture">
             <Link href="/inscriptions">
               <a>
-                <img src="/tmp.jpg" />
+                <img src="/bandeau1.jpg" />
               </a>
             </Link>
             <Link href="/inscriptions">
@@ -70,11 +71,11 @@ export default function Home() {
           </div>
         </div>
         {/*-------------2e image---------------*/}
-        <div class=" px-9">
+        <div className=" px-9">
           <div className="picture">
             <Link href="/inscriptions">
               <a>
-                <img src="/tmp.jpg" />
+                <img src="/bandeau2.jpg" />
               </a>
             </Link>{" "}
             <Link href="/inscriptions">
@@ -91,11 +92,11 @@ export default function Home() {
           </div>
         </div>
         {/*-------------3e image---------------*/}
-        <div class=" px-9">
+        <div className=" px-9">
           <div className="picture">
             <Link href="/inscriptions">
               <a>
-                <img src="/tmp.jpg" />
+                <img src="/bandeau3.jpg" className="object-cover h-100 w-100" />
               </a>
             </Link>{" "}
             <Link href="/inscriptions">
@@ -113,24 +114,20 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="text-2xl box-border h-20 w-128 bg-orange-50 text-left py-4 px-9 font-bold text-center">
+      <div className="text-2xl box-border h-20 w-128 bg-green-600 text-left py-4 px-9 font-bold text-center">
         RETROUVEZ NOUS AU : 16 QUAI DU MARECHAL DE LATTRE DE TASSIGNY - 34200
         SÈTE
       </div>
 
-      <div className="grid grid-cols-2 gap-1 place-items-stretch bg-orange-50 w-100">
+      <div className="grid grid-cols-2 gap-1 place-items-stretch bg-green-600 w-100">
         <div className="text-xl font-small py-10">
           <h1 className="font-bold text-3xl text-black text-center py-10">
             HORAIRES D'OUVERTURE{" "}
           </h1>
           <div className="text-1xl text-center font-small">
-            <li>Lundi: 8h-18h</li>
-            <li>Mardi: 8h-18h</li>
-            <li>Mercredi: 8h-18h</li>
-            <li>Jeudi: 8h-18h</li>
-            <li>Vendredi: 8h-18h</li>
-            <li>Samedi: 8h-18h</li>
-            <li>Dimanche: 8h-18h</li>
+            <li>Lundi: 14h30</li>
+            <li>Mercredi: 14h30</li>
+            <li>Vendredi: 14h30</li>
           </div>
         </div>
         <img src="/Map.png" className="py-9 mx-auto" />
@@ -139,16 +136,16 @@ export default function Home() {
       <div className="text-2xl box-sizing w-100 px-9 py-5 font-bold text-center">
         SPONSORS
         <div className="grid grid-cols-4 gap-2 border-2 border-black py-2">
-          <div class="px-9">
+          <div className="px-9">
             <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
           </div>
-          <div class="px-9">
+          <div className="px-9">
             <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
           </div>
-          <div class="px-9">
+          <div className="px-9">
             <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
           </div>
-          <div class="px-9">
+          <div className="px-9">
             <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
           </div>
         </div>
@@ -157,16 +154,16 @@ export default function Home() {
       <div className="text-2xl box-sizing w-100 px-9 py-5 font-bold text-center">
         EXPOSITION EN COURS
         <div className="grid grid-cols-4 gap-2 border-2 border-black py-2">
-          <div class="px-9">
+          <div className="px-9">
             <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
           </div>
-          <div class="px-9">
+          <div className="px-9">
             <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
           </div>
-          <div class="px-9">
+          <div className="px-9">
             <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
           </div>
-          <div class="px-9">
+          <div className="px-9">
             <img src="/FFB.jpeg" alt="sponsors" className="mx-auto" />
           </div>
         </div>
@@ -174,20 +171,24 @@ export default function Home() {
       {/* -----------------white point shlag-------------------- */}
       <div className="bg-white box-sizing h-20 w-100 text-white">.</div>
       {/* -----------------white point shlag-------------------- */}
-      <footer className="grid grid-cols-2 gap-1 place-items-stretch  bg-zinc-900 px-8 p-1">
-        <div className="">
+      <footer className="grid grid-cols-3 gap-1 place-items-stretch  bg-zinc-900">
+        <div className="ml-6 my-12">
           <span className="text-2xl text-white font-small">
             BRIDGE CLUB DU CERCLE DU COMMERCE 2022
           </span>
         </div>
-        <div className="">
+        <div className="relative left-20 w-60 ml-10 py-10">
           <Image
-            src={Logo}
-            className="absolute"
+            src={VraiLogo}
+            className=""
             alt="Logo"
-            width={190}
-            height={190}
+            width={250}
+            height={120}
           />
+        </div>
+
+        <div className="relative left-60 w-60">
+          <Image src={Logo} className="" alt="Logo" width={190} height={190} />
         </div>
       </footer>
     </div>
