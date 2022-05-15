@@ -1,12 +1,12 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/api/email": "pages/api/email.js",
   "/calendrier": "pages/calendrier.html",
   "/": "pages/index.html",
+  "/resultats": "pages/resultats.html",
   "/news": "pages/news.html",
   "/inscriptions": "pages/inscriptions.html",
-  "/api/email": "pages/api/email.js",
-  "/resultats": "pages/resultats.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }
