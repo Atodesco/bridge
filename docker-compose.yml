@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+
+  server:
+    build:
+      context: ./docker
+      dockerfile: ./server.dockerfile
+    ports:
+      - 3000:3000
+    networks:
+      - server
+    volumes:
+      - ./server:/app
+    restart: unless-stopped
+
+networks:
+  server:
