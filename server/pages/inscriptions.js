@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Navbar } from "../components/navbar";
 
 import Logo from "../img/logo.png";
-import VraiLogo from "..//img/logo-original.jpg";
+import VraiLogo from "../img/logo-original.jpg";
 import Image from "next/image";
 
 async function SendMail(event) {
@@ -32,7 +32,6 @@ function InscriptionsPage() {
     <div>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <div className="bg-red-900">

@@ -5,16 +5,16 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/4K1NtyrcJXTBKuRKQ3t3E/_buildManifest.js",
-    "static/4K1NtyrcJXTBKuRKQ3t3E/_ssgManifest.js",
-    "static/4K1NtyrcJXTBKuRKQ3t3E/_middlewareManifest.js"
+    "static/S8hbL3-Ts5yM-6mxsnLci/_buildManifest.js",
+    "static/S8hbL3-Ts5yM-6mxsnLci/_ssgManifest.js",
+    "static/S8hbL3-Ts5yM-6mxsnLci/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
       "static/chunks/webpack-4dc2921e155e6a75.js",
       "static/chunks/framework-a87821de553db91d.js",
       "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/pages/index-e8e93d3980e6fa39.js"
+      "static/chunks/pages/index-55795fd52673d503.js"
     ],
     "/_app": [
       "static/chunks/webpack-4dc2921e155e6a75.js",
@@ -37,19 +37,19 @@
       "static/chunks/75fc9c18-289ba7b5fb63f228.js",
       "static/chunks/937-4032517d055eb860.js",
       "static/css/206b13604cae7611.css",
-      "static/chunks/pages/calendrier-6c7d6588321ae5ef.js"
+      "static/chunks/pages/calendrier-2b327314e907a6a0.js"
     ],
     "/inscriptions": [
       "static/chunks/webpack-4dc2921e155e6a75.js",
       "static/chunks/framework-a87821de553db91d.js",
       "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/pages/inscriptions-8b9bdfabeafd231e.js"
+      "static/chunks/pages/inscriptions-d35fe8627a67c603.js"
     ],
     "/news": [
       "static/chunks/webpack-4dc2921e155e6a75.js",
       "static/chunks/framework-a87821de553db91d.js",
       "static/chunks/main-fc7d2f0e2098927e.js",
-      "static/chunks/pages/news-8ecd72877ae5a2fa.js"
+      "static/chunks/pages/news-73edb757f82ea16a.js"
     ],
     "/resultats": [
       "static/chunks/webpack-4dc2921e155e6a75.js",

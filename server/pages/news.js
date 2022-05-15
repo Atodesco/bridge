@@ -1,9 +1,8 @@
 import { Fragment } from "react";
-import Link from "next/Link";
 import { Navbar } from "../components/navbar";
 import Image from "next/image";
 import Logo from "../img/logo.png";
-import VraiLogo from "..//img/logo-original.jpg";
+import VraiLogo from "../img/logo-original.jpg";
 
 function NewsPage() {
   return (

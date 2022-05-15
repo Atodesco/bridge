@@ -2,18 +2,12 @@ import Head from "next/head";
 import { Navbar } from "../components/navbar";
 
 import Logo from "../img/logo.png";
-import VraiLogo from "..//img/logo-original.jpg";
+import VraiLogo from "../img/logo-original.jpg";
 import Image from "next/image";
 
 import { Calendar, momentLocalizer } from "react-big-calendar";
-import { format } from "date-fns";
-import parse from "date-fns/parse";
-import startOfWeek from "date-fns/startOfWeek";
-import getDay from "date-fns/getDay";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import React, { useState } from "react";
-import DatePicker from "react-datepicker";
-import { endOfDay } from "date-fns";
 
 import moment from "moment";
 require("moment/locale/fr.js");
@@ -149,7 +143,6 @@ function CalendrierPage() {
     <div>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <div className="grid grid-cols-5">

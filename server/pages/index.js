@@ -1,17 +1,15 @@
 import Head from "next/head";
 import { Navbar } from "../components/navbar";
 import Link from "next/Link";
-import Pin from "../public/pin.png";
 import Image from "next/image";
 import Logo from "../img/logo.png";
-import VraiLogo from "..//img/logo-original.jpg";
+import VraiLogo from "../img/logo-original.jpg";
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <div className="text-2xl box-border h-20 w-128 bg-green-600 text-left text-white font-medium py-5 px-9">
