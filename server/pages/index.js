@@ -23,8 +23,8 @@ export default function Home() {
           <div className="text">
             <span className="longtexte">
               <h1 className="text-3xl font-medium"> JOUEZ AU BRIDGE</h1>
-              Plus qu&aposun jeu de cartes convivial, le bridge est un sport
-              d&aposesprit hautement intellectuel. Il a toute sa place dans nos
+              Plus qu&apos;un jeu de cartes convivial, le bridge est un sport
+              d&apos;esprit hautement intellectuel. Il a toute sa place dans nos
               deux salons situés aux premiers étages du self et du Manoir. Vous
               pourrez y jouer tout à loisir dans des parties amicales et, si
               vous aimez la competition, participer à des tournois organisés
@@ -54,7 +54,7 @@ export default function Home() {
           <div className="picture">
             <Link href="/inscriptions">
               <a>
-                <img src="/bandeau1.jpg" />
+                <img src="/band1.png" />
               </a>
             </Link>
             <Link href="/inscriptions">
@@ -75,7 +75,7 @@ export default function Home() {
           <div className="picture">
             <Link href="/inscriptions">
               <a>
-                <img src="/bandeau2.jpg" />
+                <img src="/band2.png" />
               </a>
             </Link>{" "}
             <Link href="/inscriptions">
@@ -96,7 +96,7 @@ export default function Home() {
           <div className="picture">
             <Link href="/inscriptions">
               <a>
-                <img src="/bandeau3.jpg" className="object-cover h-100 w-100" />
+                <img src="/band3.png" className="object-cover h-100 w-100" />
               </a>
             </Link>{" "}
             <Link href="/inscriptions">
@@ -122,7 +122,7 @@ export default function Home() {
       <div className="grid grid-cols-2 gap-1 place-items-stretch bg-green-600 w-100">
         <div className="text-xl font-small py-10">
           <h1 className="font-bold text-3xl text-black text-center py-10">
-            HORAIRES D&aposOUVERTURE{" "}
+            HORAIRES D&apos;OUVERTURE{" "}
           </h1>
           <div className="text-1xl text-center font-small">
             <li>Lundi: 14h30</li>

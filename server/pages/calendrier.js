@@ -152,16 +152,19 @@ function CalendrierPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="">
-        <Calendar
-          messages={messages}
-          localizer={localizer}
-          events={events}
-          startAccessor="start"
-          endAccessor="end"
-          style={{ height: 500, margin: "50px" }}
-          eventPropGetter={eventStyleGetter}
-        />
+      <div className="grid grid-cols-5">
+        <div></div>
+        <div className="col-span-3">
+          <Calendar
+            messages={messages}
+            localizer={localizer}
+            events={events}
+            startAccessor="start"
+            endAccessor="end"
+            style={{ height: 500, margin: "50px" }}
+            eventPropGetter={eventStyleGetter}
+          />
+        </div>
       </div>
       <footer className="grid grid-cols-3 gap-1 place-items-stretch  bg-zinc-900">
         <div className="ml-6 my-12">

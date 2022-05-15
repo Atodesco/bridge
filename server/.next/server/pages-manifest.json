@@ -1,11 +1,11 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.html",
   "/calendrier": "pages/calendrier.html",
+  "/": "pages/index.html",
   "/news": "pages/news.html",
-  "/api/email": "pages/api/email.js",
   "/inscriptions": "pages/inscriptions.html",
+  "/api/email": "pages/api/email.js",
   "/resultats": "pages/resultats.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"

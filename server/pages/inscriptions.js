@@ -37,7 +37,7 @@ function InscriptionsPage() {
       <Navbar />
       <div className="bg-red-900">
         <div className="text-3xl font-medium box-sizing h-20 bg-orange-50 text-center py-5">
-          FORMULAIRE D&aposINSCRIPTION À UN TOURNOI
+          FORMULAIRE D&apos;INSCRIPTION À UN TOURNOI
         </div>
         <div className="bg-cover bg-no-reapeat justify-center items-center flex bg-orange-50">
           <form
@@ -61,7 +61,7 @@ function InscriptionsPage() {
               placeholder="Nom et Prenom du deuxieme joueur"
             />
             <div className="text-1xl text-black italic">
-              Si vous n&aposavez pas de binome et que vous en cherchez un
+              Si vous n&apos;avez pas de binome et que vous en cherchez un
               laissez le champ vide et indiquez le nous dans les message
               complementaires
             </div>
