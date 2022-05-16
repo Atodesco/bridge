@@ -3,9 +3,9 @@
   "/_error": "pages/_error.js",
   "/": "pages/index.html",
   "/calendrier": "pages/calendrier.html",
+  "/inscriptions": "pages/inscriptions.html",
   "/api/email": "pages/api/email.js",
   "/resultats": "pages/resultats.html",
-  "/inscriptions": "pages/inscriptions.html",
   "/news": "pages/news.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
