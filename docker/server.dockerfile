@@ -13,7 +13,7 @@ WORKDIR /app
 
 RUN npm -g install next
 
-EXPOSE 3000
+EXPOSE 80
 
 # ENTRYPOINT ["/bin/sh", "-c", "npm install --non-interactive && npm start"]
 ENTRYPOINT ["/bin/sh", "-c", "npm install --force && npm run build && npm start"]
