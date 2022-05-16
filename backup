@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  nginx:
+    image: nginx:latest
+    container_name: webserver
+    restart: unless-stopped
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/nginx.conf
+      - ./ssl:/ssl/
+    networks:
+      - server
+    depends_on:
+      - server
+
+  server:
+    build:
+      context: ./docker
+      dockerfile: ./server.dockerfile
+    ports:
+      - 3000:3000
+    networks:
+      - server
+    volumes:
+      - ./server:/app
+    restart: unless-stopped
+
+networks:
+  server:

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "../components/navbar";
-import Link from "next/Link";
+import NextLink from "next/link";
 import Image from "next/image";
 import Logo from "../img/logo.png";
 import VraiLogo from "../img/logo-original.jpg";
@@ -50,12 +50,12 @@ export default function Home() {
         {/*-------------1er image---------------*/}
         <div className="px-9">
           <div className="picture">
-            <Link href="/inscriptions">
+            <NextLink href="/inscriptions">
               <a>
                 <img src="/band1.png" />
               </a>
-            </Link>
-            <Link href="/inscriptions">
+            </NextLink>
+            <NextLink href="/inscriptions">
               <a>
                 <div className="overlay2">
                   <div className="text2">
@@ -65,18 +65,18 @@ export default function Home() {
                   </div>
                 </div>
               </a>
-            </Link>
+            </NextLink>
           </div>
         </div>
         {/*-------------2e image---------------*/}
         <div className=" px-9">
           <div className="picture">
-            <Link href="/inscriptions">
+            <NextLink href="/inscriptions">
               <a>
                 <img src="/band2.png" />
               </a>
-            </Link>{" "}
-            <Link href="/inscriptions">
+            </NextLink>{" "}
+            <NextLink href="/inscriptions">
               <a>
                 <div className="overlay2">
                   <div className="text2">
@@ -86,18 +86,18 @@ export default function Home() {
                   </div>
                 </div>
               </a>
-            </Link>
+            </NextLink>
           </div>
         </div>
         {/*-------------3e image---------------*/}
         <div className=" px-9">
           <div className="picture">
-            <Link href="/inscriptions">
+            <NextLink href="/inscriptions">
               <a>
                 <img src="/band3.png" className="object-cover h-100 w-100" />
               </a>
-            </Link>{" "}
-            <Link href="/inscriptions">
+            </NextLink>{" "}
+            <NextLink href="/inscriptions">
               <a>
                 <div className="overlay2">
                   <div className="text2">
@@ -107,7 +107,7 @@ export default function Home() {
                   </div>
                 </div>
               </a>
-            </Link>
+            </NextLink>
           </div>
         </div>
       </div>
