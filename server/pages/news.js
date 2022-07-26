@@ -20,7 +20,7 @@ function NewsPage() {
           {/* ----------DESCR ACTU------------- */}
           <div className="border-b-4 border-zinc-500">
             <h1 className="text-xl font-bold text-left text-slate-500 mt-7 mb-5 col-span-2">
-              LE CLUB RESTE OUVERT TOUT L'ETE
+              LE CLUB RESTE OUVERT TOUT L&apos;ETE
             </h1>
             <p className="row-span-2 col-span-2 text-justify">
               Lundi, mercredi et vendredi a 14h30.
@@ -44,20 +44,21 @@ function NewsPage() {
               FESTIVAL DE LA SAINT PIERRE
             </h1>
             <p className="row-span-2 col-span-2 text-justify mr-5">
-              Le festival de Bridge de la saint pierre s'est déroulé les samedi
-              et dimanche 3 juillet à la salle Brassens. Au total plus de 200
-              personnes venant de toute la région Languedoc Roussillon et
-              au-delà sont venues en découdre. C'est une paire "venus d'alsace"
-              Mr et Me FREY qui a remporté le tournoi Mixte devant une paire
-              venue d'Avignon Mr et Me Renassia. La première paire sétoise s'est
-              classée 4°. Félicitations à Me Malaret et son partenaire Mr
-              Blancard. Le grand tournoi Open a été remporté par une paire
-              venant de Guadeloupe et de Montpellier Mr Pelletier Jean claude et
-              Jean Louis Vives devançant une paire narbonnaise Me Claudette
-              Caussignac et Mr Philippe Neuman. Les premiers Sétois n'ont pas
-              démérité en se classant 11, 12 et 13. Devant le succès de cette
-              manifestation et l'excellente ambiance les participants ont promis
-              de revenir l'année prochaine.
+              Le festival de Bridge de la saint pierre s&apos;est déroulé les
+              samedi et dimanche 3 juillet à la salle Brassens. Au total plus de
+              200 personnes venant de toute la région Languedoc Roussillon et
+              au-delà sont venues en découdre. C&apos;est une paire &apos;venus
+              d&apos;alsace&apos; Mr et Me FREY qui a remporté le tournoi Mixte
+              devant une paire venue d&apos;Avignon Mr et Me Renassia. La
+              première paire sétoise s&apos;est classée 4°. Félicitations à Me
+              Malaret et son partenaire Mr Blancard. Le grand tournoi Open a été
+              remporté par une paire venant de Guadeloupe et de Montpellier Mr
+              Pelletier Jean claude et Jean Louis Vives devançant une paire
+              narbonnaise Me Claudette Caussignac et Mr Philippe Neuman. Les
+              premiers Sétois n&apos;ont pas démérité en se classant 11, 12 et
+              13. Devant le succès de cette manifestation et l&apos;excellente
+              ambiance les participants ont promis de revenir l&apos;année
+              prochaine.
             </p>
           </div>
           {/* ----------IMAGE ACTU------------- */}
@@ -93,12 +94,12 @@ function NewsPage() {
           {/* -------------DESCRIPTION ACTU--------- */}
           <div className="col-span-1 border-b-4 border-zinc-500">
             <h1 className="text-xl font-bold text-justify text-slate-500 mt-7 mb-5 col-span-2 ml-5">
-              LE TOURNOI DE FIN D'ANNEE A EU LIEU LE VENDREDI 24 JUIN
+              LE TOURNOI DE FIN D&apos;ANNEE A EU LIEU LE VENDREDI 24 JUIN
             </h1>
 
             <p className="row-span-2 col-span-2 text-left ml-5">
-              Les membres du club se sont retrouvés a l'issue du tournoi au
-              restaurant le « VINTAGE» pour un dîner dansant. Superbe ambiance !
+              Les membres du club se sont retrouvés a l&apos;issue du tournoi au
+              restaurant le «VINTAGE» pour un dîner dansant. Superbe ambiance !
             </p>
           </div>
           <div>{/* --------5eme col vide pour margin--------- */}</div>

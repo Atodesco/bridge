@@ -21,15 +21,15 @@ function leclubPage() {
           <div></div>
           <p className="col-span-3 text-left ml-5 text-justify mt-5 text-xl">
             Le club est une des plus vielle institution sétoise (voir
-            l'historique). Situé sur les quais en centre ville de Sète le club
-            est propriétaire de ses locaux. Au total 170 m2 qui comprennent 2
-            salles de jeux et une salle regroupant le secrétariat et un espace
+            l&apos;historique). Situé sur les quais en centre ville de Sète le
+            club est propriétaire de ses locaux. Au total 170 m2 qui comprennent
+            2 salles de jeux et une salle regroupant le secrétariat et un espace
             détente. En 2020, le club comptait 150 licenciés mais la crise
             sanitaire du Covid a malheureusement fait chuter les effectifs à une
-            centaine de licenciés. Le conseil d'administration est renouvelé
-            tous les 3 ans et comprend 10 membres. Le président actuel Alain
-            Todesco a pris ses fonctions depuis 2014. Une vingtaine de joueurs
-            sont classés en première série. Une dizaine de membres
+            centaine de licenciés. Le conseil d&apos;administration est
+            renouvelé tous les 3 ans et comprend 10 membres. Le président actuel
+            Alain Todesco a pris ses fonctions depuis 2014. Une vingtaine de
+            joueurs sont classés en première série. Une dizaine de membres
             « sympathisants» vienne renforcer les effectifs. Les tournois se
             déroulent les lundi, mercredi et vendredi après-midi à 14h30. Le
             nombre de tables varie entre 8 à 13 tables (15 à 20 tables avant le
@@ -37,10 +37,10 @@ function leclubPage() {
             diplômés (débutant, deuxième année et perfectionnement). Des
             animations club ponctuelles sont organisées telles le tournoi des
             joutes, le tournoi de pâques, le tournoi de Noël, le tournoi de
-            « fin d'année». Le premier week-end de juillet le club organise le
-            Festival régional de la Saint Pierre qui regroupe 200 participants
-            venant principalement du Languedoc-Roussillon. Bienvenue dans notre
-            club.
+            « fin d&apos;année». Le premier week-end de juillet le club organise
+            le Festival régional de la Saint Pierre qui regroupe 200
+            participants venant principalement du Languedoc-Roussillon.
+            Bienvenue dans notre club.
           </p>
         </div>
         <div className="grid grid-cols-5">
