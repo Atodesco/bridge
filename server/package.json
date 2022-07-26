@@ -19,6 +19,7 @@
     "react-calendar": "^3.7.0",
     "react-datepicker": "^4.7.0",
     "react-dom": "18.1.0",
+    "react-responsive-carousel": "^3.2.23",
     "yarn": "^1.22.18"
   },
   "devDependencies": {

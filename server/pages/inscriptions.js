@@ -30,9 +30,6 @@ async function SendMail(event) {
 function InscriptionsPage() {
   return (
     <div>
-      <Head>
-        <title>Create Next App</title>
-      </Head>
       <Navbar />
       <div className="bg-red-900">
         <div className="text-3xl font-medium box-sizing h-20 bg-orange-50 text-center py-5">
@@ -60,15 +57,15 @@ function InscriptionsPage() {
               placeholder="Nom et Prenom du deuxieme joueur"
             />
             <div className="text-1xl text-black italic">
-              Si vous n&apos;avez pas de binome et que vous en cherchez un
-              laissez le champ vide et indiquez le nous dans les message
+              Si vous n&apos;avez pas de partenaire et que vous en cherchez un
+              laissez le champ vide et indiquez-nous-le dans les message
               complementaires
             </div>
             <input
               required
               className="bg-zinc-900 shadow-inner rounded-lg p-4 hover:bg-zinc-800"
               id="Date"
-              type="string"
+              type="date"
               aria-label="Date"
               placeholder="Date du Tournoi  (jj/mm/aaaa)"
             />

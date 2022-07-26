@@ -3,6 +3,8 @@ import { Navbar } from "../components/navbar";
 import Image from "next/image";
 import Logo from "../img/logo.png";
 import VraiLogo from "../img/logo-original.jpg";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function NewsPage() {
   return (
@@ -15,24 +17,21 @@ function NewsPage() {
       <div className="mb-5 px-2">
         <div className="grid grid-cols-5">
           <div>{/* --------1er col vide pour margin--------- */}</div>
-          {/* ----------IMAGE ACTU------------- */}
+          {/* ----------DESCR ACTU------------- */}
           <div className="border-b-4 border-zinc-500">
-            <img src="/actu1.jpg" className="mx-auto my-8"></img>
-          </div>
-          {/* -------------DESCRIPTION ACTU--------- */}
-          <div className="col-span-2 border-b-4 border-zinc-500">
             <h1 className="text-xl font-bold text-left text-slate-500 mt-7 mb-5 col-span-2">
-              CHARLOTTE VIENT DE NOUS QUITTER ...
+              LE CLUB RESTE OUVERT TOUT L'ETE
             </h1>
             <p className="row-span-2 col-span-2 text-justify">
-              Depuis plus de 30 ans Charlotte a toujours été la première a
-              acceuillir les nouveaux et a su s&apos;occuper des anciens en nous
-              préparant des &quot;apéros&quot; inoubliables. C&apos;est un
-              pilier du club qui vient de nous quitter mais qui restera pour
-              toujours dans nos coeurs.
+              Lundi, mercredi et vendredi a 14h30.
             </p>
           </div>
-          <div>{/* --------5eme col vide pour margin--------- */}</div>
+          {/* -------------au dessus cest la 3e colonne avec la bottom bordure zinc--------- */}
+          {/* -------------ImG ACTU--------- */}
+          <div className="col-span-2 border-b-4 border-zinc-500">
+            <img src="/actu1.jpg" className="mx-auto my-8"></img>
+          </div>
+          <div></div>
         </div>
       </div>
       {/* ----------------2 actu reverse-----------------  */}
@@ -42,13 +41,23 @@ function NewsPage() {
           {/* -------------DESCRIPTION ACTU--------- */}
           <div className="col-span-2 border-b-4 border-zinc-500">
             <h1 className="text-xl font-bold text-left text-slate-500 mt-7 mb-5 col-span-2">
-              TOURNOI DE SOLIDARITÉ AVEC LES UKRAINIENS
+              FESTIVAL DE LA SAINT PIERRE
             </h1>
-            <p className="row-span-2 col-span-2 text-justify">
-              Le club a organisé le vendredi 8 avril un tournoi de solidarité
-              avec les Ukrainiens. La totalité des recettes, 580 euros a été
-              envoyée à la fondation de France. Nous remercions tous les membres
-              qui ont participé à cette action
+            <p className="row-span-2 col-span-2 text-justify mr-5">
+              Le festival de Bridge de la saint pierre s'est déroulé les samedi
+              et dimanche 3 juillet à la salle Brassens. Au total plus de 200
+              personnes venant de toute la région Languedoc Roussillon et
+              au-delà sont venues en découdre. C'est une paire "venus d'alsace"
+              Mr et Me FREY qui a remporté le tournoi Mixte devant une paire
+              venue d'Avignon Mr et Me Renassia. La première paire sétoise s'est
+              classée 4°. Félicitations à Me Malaret et son partenaire Mr
+              Blancard. Le grand tournoi Open a été remporté par une paire
+              venant de Guadeloupe et de Montpellier Mr Pelletier Jean claude et
+              Jean Louis Vives devançant une paire narbonnaise Me Claudette
+              Caussignac et Mr Philippe Neuman. Les premiers Sétois n'ont pas
+              démérité en se classant 11, 12 et 13. Devant le succès de cette
+              manifestation et l'excellente ambiance les participants ont promis
+              de revenir l'année prochaine.
             </p>
           </div>
           {/* ----------IMAGE ACTU------------- */}
@@ -62,55 +71,40 @@ function NewsPage() {
 
       {/* ----------------3 actu----------------- */}
       <div className="mb-5 px-2">
-        <div className="grid grid-cols-5">
+        <div className="grid grid-cols-5 ">
           <div>{/* --------1er col vide pour margin--------- */}</div>
           {/* ----------IMAGE ACTU------------- */}
-          <div className="border-b-4 border-zinc-500">
-            <img src="/actu3.jpg" className="mx-auto my-8"></img>
+          <div className="col-span-2 border-b-4 border-zinc-500">
+            <Carousel>
+              <div>
+                <img src="actu3.jpg" />
+              </div>
+              <div>
+                <img src="actu4.jpg" />
+              </div>
+              <div>
+                <img src="actu5.jpg" />
+              </div>
+              <div>
+                <img src="actu6.jpg" />
+              </div>
+            </Carousel>
           </div>
           {/* -------------DESCRIPTION ACTU--------- */}
-          <div className="col-span-2 border-b-4 border-zinc-500">
+          <div className="col-span-1 border-b-4 border-zinc-500">
             <h1 className="text-xl font-bold text-justify text-slate-500 mt-7 mb-5 col-span-2 ml-5">
-              SOIRÉE DINER DANSANT AU VINTAGE - VENDREDI 17 JUIN 2022 QUAI DES
-              MOULINS
+              LE TOURNOI DE FIN D'ANNEE A EU LIEU LE VENDREDI 24 JUIN
             </h1>
 
-            <p className="row-span-2 col-span-2 text-left ml-5 font-bold">
-              Participation: Membres 20€ / Invités 40€
+            <p className="row-span-2 col-span-2 text-left ml-5">
+              Les membres du club se sont retrouvés a l'issue du tournoi au
+              restaurant le « VINTAGE» pour un dîner dansant. Superbe ambiance !
             </p>
           </div>
           <div>{/* --------5eme col vide pour margin--------- */}</div>
         </div>
       </div>
 
-      {/* ----------------4 actu reverse-----------------  */}
-      <div className="mb-5 px-2">
-        <div className="grid grid-cols-5">
-          <div>{/* --------1er col vide pour margin--------- */}</div>
-          {/* -------------DESCRIPTION ACTU--------- */}
-          <div className="col-span-2 border-b-4 border-zinc-500">
-            <h1 className="text-xl font-bold text-left text-slate-500 mt-7 mb-5 col-span-2 mr-5">
-              SIMULTANÉ D&apos;ENTRAIDE AUX CLUBS DU COMITÉ LR
-            </h1>
-            <p className="row-span-2 col-span-2 text-justify mr-5">
-              Un classement individuel, catégoriel, est prévu sur les 5
-              meilleurs séances, basé sur les points PE hors bonus.
-            </p>
-            <p className="row-span-2 col-span-2 text-left mr-5 font-bold">
-              DONATION EN PE et PP IMPORTANTE
-            </p>
-            <p className="row-span-2 col-span-2 text-justify mr-5">
-              Le règlement sera disponible début février
-            </p>
-          </div>
-          {/* ----------IMAGE ACTU------------- */}
-          <div className="border-b-4 border-zinc-500">
-            <img src="/actu4.png" className="mx-auto my-8"></img>
-          </div>
-
-          <div>{/* --------5eme col vide pour margin--------- */}</div>
-        </div>
-      </div>
       <footer className="grid grid-cols-3 gap-1 place-items-stretch  bg-zinc-900">
         <div className="ml-6 my-12">
           <span className="text-2xl text-white font-small">

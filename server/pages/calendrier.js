@@ -43,82 +43,87 @@ const locales = {
 // ----------POUR LES MOIS cest -1 le chiffre ex: juin = 5 au lieu de 6------------
 // Les differents types d events
 // COUPE DES CLUBS X2
+//"F08080"
 // SIMULTANE LR
+//"EE82EE"
 // RÉGULARITÉ
+//"00FF00"
+//ATOUT SIMULTANE
+//7F00FF
 
 const events = [
   {
-    title: "COUPE DES CLUBS X2",
-    start: new Date(2022, 4, 2),
-    end: new Date(2022, 4, 2),
-    hexColor: "F08080",
-  },
-  {
-    title: "SIMULTANE LR",
-    start: new Date(2022, 4, 4),
-    end: new Date(2022, 4, 4),
-    hexColor: "EE82EE",
-  },
-  {
     title: "RÉGULARITÉ",
-    start: new Date(2022, 4, 6),
-    end: new Date(2022, 4, 6),
+    start: new Date(2022, 7, 1),
+    end: new Date(2022, 7, 1),
     hexColor: "00FF00",
   },
   {
-    title: "SIMULTANE LR",
-    start: new Date(2022, 4, 9),
-    end: new Date(2022, 4, 9),
-    hexColor: "EE82EE",
+    title: "RÉGULARITÉ",
+    start: new Date(2022, 7, 3),
+    end: new Date(2022, 7, 3),
+    hexColor: "00FF00",
+  },
+  {
+    title: "ATOUT SIMULTANE",
+    start: new Date(2022, 7, 5),
+    end: new Date(2022, 7, 5),
+    hexColor: "7F00FF",
+  },
+  {
+    title: "RÉGULARITÉ",
+    start: new Date(2022, 7, 8),
+    end: new Date(2022, 7, 8),
+    hexColor: "00FF00",
   },
 
   {
     title: "RÉGULARITÉ",
-    start: new Date(2022, 4, 11),
-    end: new Date(2022, 4, 11),
+    start: new Date(2022, 7, 10),
+    end: new Date(2022, 7, 10),
     hexColor: "00FF00",
   },
   {
-    title: "COUPE DES CLUBS X2",
-    start: new Date(2022, 4, 13),
-    end: new Date(2022, 4, 13),
-    hexColor: "F08080",
-  },
-  {
-    title: "SIMULTANE LR",
-    start: new Date(2022, 4, 16),
-    end: new Date(2022, 4, 16),
-    hexColor: "EE82EE",
+    title: "ATOUT SIMULTANE",
+    start: new Date(2022, 4, 12),
+    end: new Date(2022, 4, 12),
+    hexColor: "7F00FF",
   },
   {
     title: "RÉGULARITÉ",
-    start: new Date(2022, 4, 18),
-    end: new Date(2022, 4, 18),
+    start: new Date(2022, 7, 15),
+    end: new Date(2022, 7, 15),
     hexColor: "00FF00",
   },
   {
     title: "RÉGULARITÉ",
-    start: new Date(2022, 4, 20),
-    end: new Date(2022, 4, 20),
+    start: new Date(2022, 7, 17),
+    end: new Date(2022, 7, 17),
+    hexColor: "00FF00",
+  },
+  {
+    title: "ATOUT SIMULTANE",
+    start: new Date(2022, 7, 19),
+    end: new Date(2022, 7, 19),
+    hexColor: "7F00FF",
+  },
+  {
+    title: "RÉGULARITÉ",
+    start: new Date(2022, 7, 22),
+    end: new Date(2022, 7, 22),
     hexColor: "00FF00",
   },
   {
     title: "RÉGULARITÉ",
-    start: new Date(2022, 4, 23),
-    end: new Date(2022, 4, 23),
+    start: new Date(2022, 7, 24),
+    end: new Date(2022, 7, 24),
     hexColor: "00FF00",
   },
   {
-    title: "RÉGULARITÉ",
-    start: new Date(2022, 4, 25),
-    end: new Date(2022, 4, 25),
-    hexColor: "00FF00",
-  },
-  {
-    title: "RÉGULARITÉ",
-    start: new Date(2022, 4, 27),
-    end: new Date(2022, 4, 27),
-    hexColor: "00FF00",
+    title: "ATOUT SIMULTANE",
+    start: new Date(2022, 7, 26),
+    end: new Date(2022, 7, 26),
+    hexColor: "7F00FF",
   },
 ];
 
@@ -141,9 +146,6 @@ function eventStyleGetter(events, start, end, isSelected) {
 function CalendrierPage() {
   return (
     <div>
-      <Head>
-        <title>Create Next App</title>
-      </Head>
       <Navbar />
       <div className="grid grid-cols-5">
         <div></div>

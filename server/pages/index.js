@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Navbar } from "../components/navbar";
-import Link from "next/Link";
 import Image from "next/image";
+import NextLink from "next/link";
 import Logo from "../img/logo.png";
 import VraiLogo from "../img/logo-original.jpg";
 
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Bridge Sete</title>
       </Head>
       <Navbar />
       <div className="text-2xl box-border h-20 w-128 bg-green-600 text-left text-white font-medium py-5 px-9">
@@ -22,11 +22,11 @@ export default function Home() {
             <span className="longtexte">
               <h1 className="text-3xl font-medium"> JOUEZ AU BRIDGE</h1>
               Plus qu&apos;un jeu de cartes convivial, le bridge est un sport
-              d&apos;esprit hautement intellectuel. Il a toute sa place dans nos
-              deux salons situés aux premiers étages du self et du Manoir. Vous
-              pourrez y jouer tout à loisir dans des parties amicales et, si
-              vous aimez la competition, participer à des tournois organisés
-              simultanément dans toute la France.
+              d&apos;esprit hautement intellectuel. Il a toute sa place dans
+              notre salon situé au premier étage. Vous pourrez y jouer tout à
+              loisir dans des parties amicales et, si vous aimez la competition,
+              participer à des tournois organisés simultanément dans toute la
+              France.
             </span>
           </div>
           <div className="contact">
@@ -46,16 +46,16 @@ export default function Home() {
         />
       </div> */}
 
-      <div className="grid grid-cols-3 gap-2 px-3 py-9 w-100">
+      <div className="grid grid-cols-3 gap-2 px-3 py-9 place-items-center">
         {/*-------------1er image---------------*/}
         <div className="px-9">
           <div className="picture">
-            <Link href="/inscriptions">
+            <NextLink href="/inscriptions">
               <a>
                 <img src="/band1.png" />
               </a>
-            </Link>
-            <Link href="/inscriptions">
+            </NextLink>
+            <NextLink href="/inscriptions">
               <a>
                 <div className="overlay2">
                   <div className="text2">
@@ -65,18 +65,18 @@ export default function Home() {
                   </div>
                 </div>
               </a>
-            </Link>
+            </NextLink>
           </div>
         </div>
         {/*-------------2e image---------------*/}
-        <div className=" px-9">
+        <div className="">
           <div className="picture">
-            <Link href="/inscriptions">
+            <NextLink href="/inscriptions">
               <a>
-                <img src="/band2.png" />
+                <img src="/newband2.jpg" />
               </a>
-            </Link>{" "}
-            <Link href="/inscriptions">
+            </NextLink>{" "}
+            <NextLink href="/inscriptions">
               <a>
                 <div className="overlay2">
                   <div className="text2">
@@ -86,18 +86,18 @@ export default function Home() {
                   </div>
                 </div>
               </a>
-            </Link>
+            </NextLink>
           </div>
         </div>
         {/*-------------3e image---------------*/}
         <div className=" px-9">
           <div className="picture">
-            <Link href="/inscriptions">
+            <NextLink href="/inscriptions">
               <a>
                 <img src="/band3.png" className="object-cover h-100 w-100" />
               </a>
-            </Link>{" "}
-            <Link href="/inscriptions">
+            </NextLink>{" "}
+            <NextLink href="/inscriptions">
               <a>
                 <div className="overlay2">
                   <div className="text2">
@@ -107,7 +107,7 @@ export default function Home() {
                   </div>
                 </div>
               </a>
-            </Link>
+            </NextLink>
           </div>
         </div>
       </div>
