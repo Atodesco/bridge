@@ -1,5 +1,9 @@
 import Head from "next/head";
 import { Navbar } from "../components/navbar";
+<<<<<<< HEAD
+=======
+import NextLink from "next/link";
+>>>>>>> ff59542fff007d20d5af6c5d681a353aa9c811f3
 import Image from "next/image";
 import NextLink from "next/link";
 import Logo from "../img/logo.png";
