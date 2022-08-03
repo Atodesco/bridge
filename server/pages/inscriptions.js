@@ -5,6 +5,9 @@ import Logo from "../img/logo.png";
 import VraiLogo from "../img/logo-original.jpg";
 import Image from "next/image";
 
+import React, { useState } from "react";
+import { Modal } from "@mui/material";
+
 async function SendMail(event) {
   console.log(event);
   console.log(event.nativeEvent.srcElement);
@@ -28,9 +31,20 @@ async function SendMail(event) {
 }
 
 function InscriptionsPage() {
+  const [OpenModal, SetOpenModal] = useState(false);
   return (
     <div>
       <Navbar />
+      <Modal
+        open={OpenModal}
+        onClose={() => {
+          SetOpenModal(false);
+        }}
+      >
+        <div className="bg-white w-1/3 mx-auto  p-8 md:p-12 my-10 shadow-2xl text-center">
+          Inscription confirmée
+        </div>
+      </Modal>
       <div className="bg-red-900">
         <div className="text-3xl font-medium box-sizing h-20 bg-orange-50 text-center py-5">
           FORMULAIRE D&apos;INSCRIPTION À UN TOURNOI
@@ -38,7 +52,10 @@ function InscriptionsPage() {
         <div className="bg-cover bg-no-reapeat justify-center items-center flex bg-orange-50">
           <form
             className="grid grid-cols1 gap-6  box-border w-80 text-white"
-            onSubmit={SendMail}
+            onSubmit={(e) => {
+              SendMail(e);
+              SetOpenModal(true);
+            }}
           >
             <input
               required
@@ -70,7 +87,6 @@ function InscriptionsPage() {
               placeholder="Date du Tournoi  (jj/mm/aaaa)"
             />
             <input
-              required
               className="bg-zinc-900 shadow-inner rounded-lg p-4 hover:bg-zinc-800"
               id="email"
               type="email"

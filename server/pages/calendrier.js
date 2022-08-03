@@ -145,7 +145,7 @@ function eventStyleGetter(events, start, end, isSelected) {
 
 function CalendrierPage() {
   return (
-    <div>
+    <div className="bg-orange-50">
       <Navbar />
       <div className="grid grid-cols-5">
         <div></div>

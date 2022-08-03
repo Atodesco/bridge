@@ -8,7 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function NewsPage() {
   return (
-    <div>
+    <div className="bg-orange-50">
       <Navbar />
       <div className="text-2xl box-border h-20 w-128 bg-green-600 text-left text-white font-medium py-5 px-9">
         ACTUALITÉS

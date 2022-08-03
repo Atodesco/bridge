@@ -7,7 +7,7 @@ import VraiLogo from "../img/logo-original.jpg";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-orange-50">
       <Head>
         <title>Bridge Sete</title>
       </Head>
