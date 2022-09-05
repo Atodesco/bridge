@@ -42,87 +42,89 @@ const locales = {
 
 // ----------POUR LES MOIS cest -1 le chiffre ex: juin = 5 au lieu de 6------------
 // Les differents types d events
-// COUPE DES CLUBS X2
+// COUPE DES CLUBS X2 - SIMULTANE ROY RENE
 //"F08080"
-// SIMULTANE LR
+// SIMULTANE LR - SIMULTANET
 //"EE82EE"
 // RÉGULARITÉ
 //"00FF00"
 //ATOUT SIMULTANE
 //7F00FF
+//TROPHEE DU VOYAGE
+//86832D
 
 const events = [
   {
+    title: "TROPHEE DU VOYAGE",
+    start: new Date(2022, 8, 5),
+    end: new Date(2022, 8, 5),
+    hexColor: "86832D",
+  },
+  {
     title: "RÉGULARITÉ",
-    start: new Date(2022, 7, 1),
-    end: new Date(2022, 7, 1),
+    start: new Date(2022, 8, 7),
+    end: new Date(2022, 8, 7),
     hexColor: "00FF00",
   },
   {
-    title: "RÉGULARITÉ",
-    start: new Date(2022, 7, 3),
-    end: new Date(2022, 7, 3),
-    hexColor: "00FF00",
-  },
-  {
-    title: "ATOUT SIMULTANE",
-    start: new Date(2022, 7, 5),
-    end: new Date(2022, 7, 5),
-    hexColor: "7F00FF",
+    title: "SIMULTANE ROY RENE",
+    start: new Date(2022, 8, 9),
+    end: new Date(2022, 8, 9),
+    hexColor: "F08080",
   },
   {
     title: "RÉGULARITÉ",
-    start: new Date(2022, 7, 8),
-    end: new Date(2022, 7, 8),
+    start: new Date(2022, 8, 12),
+    end: new Date(2022, 8, 12),
     hexColor: "00FF00",
   },
 
   {
     title: "RÉGULARITÉ",
-    start: new Date(2022, 7, 10),
-    end: new Date(2022, 7, 10),
+    start: new Date(2022, 8, 14),
+    end: new Date(2022, 8, 14),
+    hexColor: "00FF00",
+  },
+  {
+    title: "SIMULTANET",
+    start: new Date(2022, 8, 16),
+    end: new Date(2022, 8, 16),
+    hexColor: "EE82EE",
+  },
+  {
+    title: "RÉGULARITÉ",
+    start: new Date(2022, 8, 19),
+    end: new Date(2022, 8, 19),
+    hexColor: "00FF00",
+  },
+  {
+    title: "RÉGULARITÉ",
+    start: new Date(2022, 8, 21),
+    end: new Date(2022, 8, 21),
+    hexColor: "00FF00",
+  },
+  {
+    title: "SIMULTANET",
+    start: new Date(2022, 8, 23),
+    end: new Date(2022, 8, 23),
+    hexColor: "EE82EE",
+  },
+  {
+    title: "RÉGULARITÉ",
+    start: new Date(2022, 8, 26),
+    end: new Date(2022, 8, 26),
+    hexColor: "00FF00",
+  },
+  {
+    title: "RÉGULARITÉ",
+    start: new Date(2022, 8, 28),
+    end: new Date(2022, 8, 28),
     hexColor: "00FF00",
   },
   {
     title: "ATOUT SIMULTANE",
-    start: new Date(2022, 4, 12),
-    end: new Date(2022, 4, 12),
-    hexColor: "7F00FF",
-  },
-  {
-    title: "RÉGULARITÉ",
-    start: new Date(2022, 7, 15),
-    end: new Date(2022, 7, 15),
-    hexColor: "00FF00",
-  },
-  {
-    title: "RÉGULARITÉ",
-    start: new Date(2022, 7, 17),
-    end: new Date(2022, 7, 17),
-    hexColor: "00FF00",
-  },
-  {
-    title: "ATOUT SIMULTANE",
-    start: new Date(2022, 7, 19),
-    end: new Date(2022, 7, 19),
-    hexColor: "7F00FF",
-  },
-  {
-    title: "RÉGULARITÉ",
-    start: new Date(2022, 7, 22),
-    end: new Date(2022, 7, 22),
-    hexColor: "00FF00",
-  },
-  {
-    title: "RÉGULARITÉ",
-    start: new Date(2022, 7, 24),
-    end: new Date(2022, 7, 24),
-    hexColor: "00FF00",
-  },
-  {
-    title: "ATOUT SIMULTANE",
-    start: new Date(2022, 7, 26),
-    end: new Date(2022, 7, 26),
+    start: new Date(2022, 8, 30),
+    end: new Date(2022, 8, 30),
     hexColor: "7F00FF",
   },
 ];
