@@ -17,4 +17,5 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - ./ssl:/ssl/
+      - /etc/letsencrypt/live/bridgesete.fr/fullchain.pem:/fullchain.pem
+      - /etc/letsencrypt/live/bridgesete.fr/privkey.pem:/privkey.pem

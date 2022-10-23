@@ -26,7 +26,7 @@ function leclubPage() {
             2 salles de jeux et une salle regroupant le secrétariat et un espace
             détente. En 2020, le club comptait 150 licenciés mais la crise
             sanitaire du Covid a malheureusement fait chuter les effectifs à une
-            centaine de licenciés. Le conseil d'administration est renouvelé
+            centaine de licenciés. Le conseil d&apos;administration est renouvelé
             tous les 3 ans et comprend 10 membres. Le président actuel Alain
             Todesco a pris ses fonctions depuis 2014. Une vingtaine de joueurs
             sont classés en première série. Une dizaine de membres

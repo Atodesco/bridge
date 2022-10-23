@@ -1,0 +1,51 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:3000            0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 :::80                   :::*                    LISTEN      -                   
+tcp6       0      0 :::22                   :::*                    LISTEN      -                   
+tcp6       0      0 :::3000                 :::*                    LISTEN      -                   
+udp        0      0 127.0.0.53:53           0.0.0.0:*                           -                   
+udp        0      0 172.31.43.115:68        0.0.0.0:*                           -                   
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           -                   
+udp6       0      0 ::1:323                 :::*                                -                   
+raw6       0      0 :::58                   :::*                    7           -                   
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  2      [ ACC ]     STREAM     LISTENING     17211    -                    /var/snap/lxd/common/lxd/unix.socket
+unix  2      [ ACC ]     STREAM     LISTENING     17213    -                    /var/snap/lxd/common/lxd-user/unix.socket
+unix  2      [ ACC ]     STREAM     LISTENING     18641    745/systemd          /run/user/1000/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     18649    745/systemd          /run/user/1000/bus
+unix  2      [ ACC ]     STREAM     LISTENING     14417    -                    @/org/kernel/linux/storage/multipathd
+unix  2      [ ACC ]     STREAM     LISTENING     18651    745/systemd          /run/user/1000/gnupg/S.dirmngr
+unix  2      [ ACC ]     STREAM     LISTENING     18653    745/systemd          /run/user/1000/gnupg/S.gpg-agent.browser
+unix  2      [ ACC ]     STREAM     LISTENING     18655    745/systemd          /run/user/1000/gnupg/S.gpg-agent.extra
+unix  2      [ ACC ]     STREAM     LISTENING     18657    745/systemd          /run/user/1000/gnupg/S.gpg-agent.ssh
+unix  2      [ ACC ]     STREAM     LISTENING     18659    745/systemd          /run/user/1000/gnupg/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     18661    745/systemd          /run/user/1000/pk-debconf-socket
+unix  2      [ ACC ]     STREAM     LISTENING     18663    745/systemd          /run/user/1000/snapd-session-agent.socket
+unix  2      [ ACC ]     STREAM     LISTENING     20595    -                    /var/lib/amazon/ssm/ipc/health
+unix  2      [ ACC ]     STREAM     LISTENING     87639    -                    /run/systemd/journal/io.systemd.journal
+unix  2      [ ACC ]     STREAM     LISTENING     14415    -                    /run/lvm/lvmpolld.socket
+unix  2      [ ACC ]     STREAM     LISTENING     14420    -                    /run/systemd/fsck.progress
+unix  2      [ ACC ]     STREAM     LISTENING     14432    -                    /run/systemd/journal/stdout
+unix  2      [ ACC ]     SEQPACKET  LISTENING     14435    -                    /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     26244    -                    /run/docker.sock
+unix  2      [ ACC ]     STREAM     LISTENING     76094    -                    /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     76097    -                    /run/systemd/userdb/io.systemd.DynamicUser
+unix  2      [ ACC ]     STREAM     LISTENING     76098    -                    /run/systemd/io.system.ManagedOOM
+unix  2      [ ACC ]     STREAM     LISTENING     88207    -                    /run/systemd/resolve/io.systemd.Resolve
+unix  2      [ ACC ]     STREAM     LISTENING     80029    -                    /run/containerd/containerd.sock.ttrpc
+unix  2      [ ACC ]     STREAM     LISTENING     80030    -                    /run/containerd/containerd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     89021    -                    /var/run/docker/metrics.sock
+unix  2      [ ACC ]     STREAM     LISTENING     89369    -                    /var/run/docker/libnetwork/a19b2df61603.sock
+unix  2      [ ACC ]     STREAM     LISTENING     17183    -                    /run/acpid.socket
+unix  2      [ ACC ]     STREAM     LISTENING     17193    -                    /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     17220    -                    /run/uuidd/request
+unix  2      [ ACC ]     STREAM     LISTENING     17210    -                    @ISCSIADM_ABSTRACT_NAMESPACE
+unix  2      [ ACC ]     STREAM     LISTENING     20596    -                    /var/lib/amazon/ssm/ipc/termination
+unix  2      [ ACC ]     STREAM     LISTENING     77926    -                    /run/snapd.socket
+unix  2      [ ACC ]     STREAM     LISTENING     77927    -                    /run/snapd-snap.socket
+unix  2      [ ACC ]     STREAM     LISTENING     93138    -                    /run/containerd/s/fd8b2601929a650a2679009a650edfd719f28e00b78aa54a0eac1fa89c1fa292
